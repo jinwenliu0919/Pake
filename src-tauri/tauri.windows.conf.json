@@ -1,13 +1,14 @@
 {
   "bundle": {
-    "icon": ["png/weread_256.ico", "png/weread_32.ico"],
+    "identifier": "com.pake.xsimple",
+    "icon": ["png/xsimple_256.ico", "png/xsimple_32.ico"],
     "active": true,
-    "resources": ["png/weread_32.ico"],
+    "resources": ["png/xsimple_32.ico"],
     "targets": ["msi"],
     "windows": {
       "digestAlgorithm": "sha256",
       "wix": {
-        "language": ["en-US"],
+        "language": ["zh-CN"],
         "template": "assets/main.wxs"
       }
     }

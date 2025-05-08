@@ -1,6 +1,7 @@
 {
   "bundle": {
-    "icon": ["icons/weread.icns"],
+    "identifier": "com.pake.xsimple",
+    "icon": ["icons/xsimple.icns"],
     "active": true,
     "macOS": {},
     "targets": ["dmg"]
